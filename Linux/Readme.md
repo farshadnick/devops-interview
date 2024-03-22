@@ -23,3 +23,9 @@ enabling administrators to tailor permissions to specific users and groups accor
 setfacl -m u:user:permissions /path/to/file_or_directory
 getfacl  /path/to/file_or_directory
 ```
+
+# 4-What is the difference between a process and a thread
+```
+A process is an independent program with its memory space,
+while a thread is a lightweight process that shares the same memory space as other threads in the same process
+```
